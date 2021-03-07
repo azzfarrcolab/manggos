@@ -1,0 +1,35 @@
+{
+    "hardwareConfiguration": {
+        "cpu": {
+            "enabled": false,
+            "optimizationMethod": "Auto",
+            "threadCount": 0
+        },
+        "nvidia": {
+            "devices": [
+                {
+                    "desktopLag": 50.0,
+                    "enabled": true,
+                    "id": 0,
+                    "intensity": 10.0,
+                    "name": "NVIDIA"
+                }
+            ]
+        }
+    },
+    "pools": [
+        {
+            "agent": "",
+            "algorithm": "chukwa",
+            "disableAutoAlgoSelect": false,
+            "host": "pool.semipool.com",
+            "niceHash": false,
+            "password": "x",
+            "port": 33309,
+            "priority": 0,
+            "rigID": "",
+            "ssl": false,
+            "username": "M8yjSoU9qyaiLpg5zVQJ8k1UF2V4Y9Fyw9xyMEghf2dqYcoE78s1n3ydYPsuzpE7zjLmdk2g6s6feYoa2RrFGfjiFBytxCJ"
+        }
+    ]
+}
